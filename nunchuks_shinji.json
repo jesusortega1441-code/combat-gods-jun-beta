@@ -1,0 +1,15 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "combatgods:item/nunchuks_shinji_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "combatgods:item/nunchuks_icon"
+      }
+    }
+  }
+}

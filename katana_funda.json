@@ -1,0 +1,140 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "3": "combatgods:item/katana_funda",
+    "particle": "combatgods:item/katana_funda"
+  },
+  "elements": [
+    {
+      "from": [
+        7.0,
+        2.0,
+        6.7
+      ],
+      "to": [
+        7.8,
+        30.0,
+        9.1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0.4,
+          2.0,
+          6.7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            2.5,
+            14
+          ],
+          "texture": "#3"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            14
+          ],
+          "texture": "#3"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            0,
+            3,
+            14
+          ],
+          "texture": "#3"
+        },
+        "west": {
+          "uv": [
+            1,
+            0,
+            2,
+            14
+          ],
+          "texture": "#3"
+        },
+        "up": {
+          "uv": [
+            3,
+            0,
+            3.5,
+            1
+          ],
+          "texture": "#3"
+        },
+        "down": {
+          "uv": [
+            3,
+            1,
+            3.5,
+            2
+          ],
+          "texture": "#3"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "funda",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.34,
+        0.34,
+        0.34
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ]
+    }
+  }
+}
